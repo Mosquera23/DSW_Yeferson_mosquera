@@ -22,3 +22,10 @@ margin: 40px;
     font-family: 'Times New Roman', Times, serif;
     color: #005883;
 }
+
+.footer{
+    background-color: #b3b3b3;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+}
