@@ -1,0 +1,28 @@
+
+
+.titulo{ text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    position: relative;
+
+}
+
+.titulo::before,.titulo::after {
+
+content:"" ;
+position: absolute;
+width: 120px;
+height: 3px;
+background-color: aliceblue;
+top: 0.6em;
+
+}
+
+.titulo::before{
+    left: -140px; 
+}
+
+.titulo::after{
+    right: -140px; 
+}
+
